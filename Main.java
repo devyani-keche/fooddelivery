@@ -7,8 +7,8 @@ public class Main {
 
         // 🔹 Factory Pattern
         User customer = UserFactory.createUser("customer", "Devyani");
-        User restaurant = UserFactory.createUser("restaurant", "Dominos");
-        User delivery = UserFactory.createUser("delivery", "Rahul");
+        User restaurant = UserFactory.createUser("restaurant", "Jiya Pizza");
+        User delivery = UserFactory.createUser("delivery", "Aakarsh");
 
         customer.displayRole();
         restaurant.displayRole();
